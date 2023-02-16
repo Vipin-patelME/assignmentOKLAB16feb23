@@ -21,7 +21,7 @@ class RightAsideBtnCont extends Component{  //extends keyword used to inherit th
 	render() {
 		// every method should return something
 		return(
-            <div className="">
+            <div>
                 <h6 className="get-start">On this Page</h6>
                 <hr className="hori-line" />
                 <RightAsideBtn />
