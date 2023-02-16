@@ -1,7 +1,7 @@
 // 1. import area
 import { Component } from "react"
 //1.1 import somedefaultImport from some location/library
-
+import RightAsideBtnCont from "./RightAsideBtnCont";
 //1.2 import {someNamedImport} from some location /library
 
 //2. class component defination area
@@ -22,7 +22,7 @@ class RightAside extends Component{  //extends keyword used to inherit the prope
 		// every method should return something
 		return(
             <aside className={`col-3 ${this.props.clsName}`}>
-                <h6 className="get-start">I am vipin</h6>
+                <RightAsideBtnCont />
             </aside>
             )
 
