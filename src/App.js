@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './layout/Header';
+import {LeftAside } from './layout/LeftAside';
+import RightAside from './layout/RightAside';
+import Section from './layout/Section';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" contaner-fluid main-cont">
+      <Header />
+        <div className='row h-100 main-body'>
+          <LeftAside clsName="left-asside" />
+          <Section />
+          <RightAside clsName="right-asside" />
+        </div>
+      <footer className='footer-cont'>Footer</footer>
     </div>
   );
 }

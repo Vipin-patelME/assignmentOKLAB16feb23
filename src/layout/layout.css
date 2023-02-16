@@ -1,0 +1,97 @@
+.head-nav{
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.main-ancor{
+    font-weight: bold;
+    color: #E4D6FE;
+}
+.child-anchor{
+    color: #E4D6FE;
+    font-size: 20px;
+}
+.bs-icon{
+    height: 60px;
+    margin-right: 15px;
+}
+.left-asside{
+    border: 1px dashed red;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.right-asside{
+    border: 1px dashed green;
+}
+.get-start{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.left-aside-content-cont{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.laside-btn-cont{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.intro-btn{
+    height: 30px;
+    border-radius: 8px;
+    width: 130px;
+    background-color: #F1E9FE;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 520;
+}
+.btns-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.all-btns{
+    border-style: none;
+    background-color: transparent;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.section-mai-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+.section-mai-head-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.view-btn{
+    background-color: transparent;
+    border: 1px bold gray;
+    border-radius: 6px;
+}
+.intro-para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+.img-cont{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    align-self: flex-start;
+    background-color: #F8F9FA;
+}
+.ad-image{
+    height: 150px;
+}
+.quick-start-comp{
+    width: 100%;
+    margin-top: 20px;
+}
